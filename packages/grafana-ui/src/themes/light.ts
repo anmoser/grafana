@@ -72,6 +72,7 @@ const lightTheme: GrafanaTheme = {
     linkHover: basicColors.dark1,
     linkExternal: basicColors.blueLight,
     headingColor: basicColors.gray2,
+    pageHeaderBorder: basicColors.gray1,
   },
   background: {
     dropdown: basicColors.white,

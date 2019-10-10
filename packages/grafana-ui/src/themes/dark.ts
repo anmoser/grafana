@@ -71,12 +71,17 @@ const darkTheme: GrafanaTheme = {
     linkHover: basicColors.white,
     linkExternal: basicColors.blue,
     headingColor: basicColors.gray2,
+    pageHeaderBorder: basicColors.gray2,
   },
   background: {
     dropdown: basicColors.gray1,
     scrollbar: basicColors.gray1,
     scrollbar2: basicColors.gray1,
+    pageHeader: basicColors.gray1,
   },
+  shadow: {
+    pageHeader: basicColors.gray1,
+  }
 };
 
 export default darkTheme;

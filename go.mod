@@ -67,7 +67,7 @@ require (
 	github.com/uber/jaeger-client-go v2.16.0+incompatible
 	github.com/uber/jaeger-lib v2.0.0+incompatible // indirect
 	github.com/unknwon/bra v0.0.0-20190805204333-bb0929b6cca0 // indirect
-	github.com/unknwon/com v1.0.1 // indirect
+	github.com/unknwon/com v1.0.1
 	github.com/unknwon/log v0.0.0-20150304194804-e617c87089d3 // indirect
 	github.com/urfave/cli v1.21.0 // indirect
 	github.com/yudai/gojsondiff v1.0.0
@@ -76,13 +76,12 @@ require (
 	go.uber.org/atomic v1.3.2 // indirect
 	golang.org/x/net v0.0.0-20190724013045-ca1201d0de80
 	golang.org/x/oauth2 v0.0.0-20190319182350-c85d3e98c914
-	golang.org/x/sync v0.0.0-20190227155943-e225da77a7e6
-	golang.org/x/sys v0.0.0-20190415081028-16da32be82c5 // indirect
+	golang.org/x/sync v0.0.0-20190423024810-112230192c58
 	golang.org/x/xerrors v0.0.0-20190717185122-a985d3407aa7
 	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
 	gopkg.in/asn1-ber.v1 v1.0.0-20181015200546-f715ec2f112d // indirect
 	gopkg.in/fsnotify/fsnotify.v1 v1.4.7 // indirect
-	gopkg.in/ini.v1 v1.42.0
+	gopkg.in/ini.v1 v1.46.0
 	gopkg.in/ldap.v3 v3.0.2
 	gopkg.in/macaron.v1 v1.3.4
 	gopkg.in/mail.v2 v2.3.1
