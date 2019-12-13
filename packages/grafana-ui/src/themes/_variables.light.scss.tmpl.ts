@@ -225,7 +225,7 @@ $horizontalComponentOffset: 180px;
 
 // Navbar
 // -------------------------
-$navbarHeight: 52px;
+$navbarHeight: 60px;
 
 $navbarBackground: $blue-base;
 $navbarBorder: 1px solid $gray-5;

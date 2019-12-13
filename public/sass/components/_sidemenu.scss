@@ -90,8 +90,9 @@ $mobile-menu-breakpoint: md;
   position: relative;
   font-size: 16px;
   border: 1px solid transparent;
-  text-align: center;
-  &:hover{
+  left: 35px;
+  width: 5px;
+  &:hover {
     filter: brightness(0);
   }
 
@@ -217,10 +218,10 @@ li.sidemenu-org-switcher {
   }
 
   img {
-    width: 50px;
+    width: 70px;
     position: relative;
-    top: 10px;
-    left: 4px;
+    top: 11px;
+    left: 25px;
   }
 }
 
@@ -258,8 +259,7 @@ li.sidemenu-org-switcher {
   .sidemenu {
     .sidemenu__logo {
       display: none;
-      }
-    
+    }
 
     .sidemenu__logo_small_breakpoint {
       padding: 14px 10px 26px 13px;

@@ -66,8 +66,7 @@
   font-size: $font-size-lg;
   min-height: $navbarHeight;
   line-height: $navbarHeight;
-  box
-  > li > i {
+  box > li > i {
     color: $white;
   }
 
@@ -76,7 +75,7 @@
     position: relative;
     font-size: 17px;
     line-height: 8px;
-    opacity: 1.0;
+    opacity: 1;
     margin-right: 10px;
     display: none;
 
@@ -85,19 +84,19 @@
     }
     filter: $navbar-btn-gicon-brightness;
   }
-    /*&:hover {
+  /*&:hover {
       .gicon {
         filter: brightness(0.2);
       }
     }*/
-  
+
   > a {
     color: $gray-1;
   }
 }
 
 .navbar-page-btn__folder {
-  background-color:blue;
+  background-color: $blue-base;
   color: $text-color-weak;
   display: none;
   color: $gray-1;
@@ -130,7 +129,6 @@ i.navbar-page-btn__search {
   justify-content: flex-end;
   margin-left: 10px;
   color: $gray-1;
-
 
   &--close {
     display: none;
@@ -186,7 +184,7 @@ i.navbar-page-btn__search {
 
   &--settings {
     font-size: 16px;
-    }
+  }
 
   &--tight {
     padding: 7px 4px;
